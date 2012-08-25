@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Genius 1.7 Updates</title>
+        <link>http://genius.sourceforge.net/</link>
+        <description>Genius Project Software Updates for version 1.7.</description>
+        <ttl>1</ttl>
+
+        <item>
+            <title>Version 1.7.250 (1 fix)</title>
+            <description>
+            <![CDATA[
+				<h4>WHAT'S NEW IN VERSION 1.7.250</h4>
+				<b>New Fixes:</b>
+				<ul>
+					<li>Text now wraps during quiz mode and in info drawer 1933501.</li>
+				</ul>
+            ]]>
+            </description>
+            <enclosure sparkle:shortVersionString="1.7" sparkle:version="250" url="http://downloads.sourceforge.net/genius/Genius-1.7.250.dmg" length="379501" type="application/octet-stream"/>
+            <pubDate>14 Apr 2008 14:38 +0100</pubDate>
+        </item>
+        
+        <item>
+            <title>Version 1.7.228 (4 features 4 fixes)</title>
+            <description>
+            <![CDATA[
+				<b>New Features!</b>
+				<ul>
+					<li>Improved keyboard based navigation and editing.</li>
+					<li>Up and down arrow now changes selection in list view.</li>
+					<li>Shift up and down arrow now extends selection in list view.</li>
+					<li>Option return now begins editing of an item in list view.</li>
+				</ul>
+				<b>New Fixes!</b>
+				<ul>
+					<li>Hitting command option now begins editing of the selected row 1881146.</li>
+					<li>Arrow keys can be used to navigate the table view 1880902.</li>
+					<li>Status text at bottom of window reflects the selected items 1880874.</li>
+					<li>Custom group text no longer clipped 1881818.</li>
+				</ul>
+            ]]>
+            </description>
+            <enclosure sparkle:shortVersionString="1.7" sparkle:version="228" url="http://downloads.sourceforge.net/genius/Genius-1.7.228.dmg" length="379412" type="application/octet-stream"/>
+            <pubDate>29 Jan 2008 18:45 +0100</pubDate>
+        </item>
+        
+        <item>
+            <title>Version 1.7.210 (0 new feature 5 new fixes)</title>
+            <description>
+            <![CDATA[
+            <b>New Features:</b>
+            <ul>
+                <li>None.</li>
+            </ul>
+            <b>New Fixes:</b>
+            <ul>
+				<li>Hitting escape ends editing of card side in table view 1878448.</li>
+				<li>You can't edit score values in the table view anymore 1878445.</li>
+				<li>Fixed problem with undo after quizes.  You can now undo a quiz run 1878375.</li>
+				<li>Table view question value selected for edit after insert 1875518.</li>
+				<li>Instructions no longer flicker and sometimes disappear for empty decks 1868744.</li>
+            </ul>
+            ]]>
+            </description>
+            <enclosure sparkle:shortVersionString="1.7" sparkle:version="210" url="http://downloads.sourceforge.net/genius/Genius-1.7.210.dmg" length="415206" type="application/octet-stream"/>
+            <pubDate>23 Jan 2008 21:09 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Version 1.7.196 (1 new feature 0 new fixes)</title>
+            <description>
+            <![CDATA[
+            <b>New Features:</b>
+            <ul>
+                <li>Added Sparkle based auto update.</li>
+            </ul>
+            <b>New Fixes:</b>
+            <ul>
+                <li>None.</li>
+            </ul>
+            ]]>
+            </description>
+            <enclosure sparkle:version="1.7.196" url="http://downloads.sourceforge.net/genius/Genius-1.7.196.dmg" length="415420" type="application/octet-stream"/>
+            <pubDate>15 Jan 2008 18:03 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Version 1.7.185 (0 new features 2 new fixes)</title>
+            <description>
+            <![CDATA[
+            <b>New Features:</b>
+            <ul>
+                <li>None.</li>
+            </ul>
+            <b>New Fixes:</b>
+            <ul>
+                <li>1868874: Resize quiz window does not work.</li>
+                <li>1868739: Table view editing doesn't work right anymore.</li>
+            </ul>
+            ]]>
+            </description>
+            <enclosure sparkle:version="1.7.185" url="http://downloads.sourceforge.net/genius/Genius-1.7.185.dmg" length="311580" type="application/octet-stream"/>
+            <pubDate>11 Jan 2008 10:41 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Version 1.7.181 (1 new feature)</title>
+            <description>
+            <![CDATA[
+            <b>Notes:</b>
+            This release features a new feature. Undo / Redo is implemented. There are also some memory management fixes so this release doesn't "leak" as much as previous ones. There are some user interface changes. No more Scrolling Text entry boxes. This should making tabbing between fields easier. And the labels in the info drawer are no longer editable. 
+            ]]>
+            </description>
+            <enclosure sparkle:version="1.7.181" url="http://downloads.sourceforge.net/genius/Genius-1.7.181.dmg" length="312259" type="application/octet-stream"/>
+            <pubDate>10 Jan 2008 17:14 +0100</pubDate>
+        </item>
+        
+    </channel>
+</rss>
