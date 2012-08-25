@@ -256,7 +256,7 @@ Assuming this is okay, it simply passes the call to super.
     if (path == nil)
         return;
     
-    NSString * text = [NSString stringWithContentsOfFile:path];
+    NSString * text = [NSString stringWithContentsOfFile:path encoding: NSUTF8StringEncoding error:nil];
     if (text == nil)
         return;
     
