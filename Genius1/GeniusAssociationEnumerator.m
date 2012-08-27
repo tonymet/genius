@@ -314,8 +314,14 @@ static NSComparisonResult CompareAssociationByImportance(GeniusAssociation * ass
     if ([_scheduledAssociations count])
     {
         association = [[_scheduledAssociations objectAtIndex:0] retain];
+#if DEBUG
+        NSLog(@"_association dueDate = %@", [association dueDate]);
+#endif
         if ([[association dueDate] compare:[NSDate date]] == NSOrderedAscending)
         {
+#if DEBUG
+            NSLog(@"removing association");
+#endif
             [_scheduledAssociations removeObjectAtIndex:0];
         }
     }

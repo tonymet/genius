@@ -230,6 +230,7 @@ Assuming this is okay, it simply passes the call to super.
 - (void)_exportFileDidEnd:(NSSavePanel *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo
 {
     NSString * path = [sheet filename];
+    
     if (path == nil)
         return;
 
